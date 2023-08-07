@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    height: 300px;
+    width: 1000px;
+    grid-template-columns: auto auto;
+    text-align: center;
+
+}
+.image1{
+    height: 300px;
+    width: 300px;
+}
+
+.child{
+    grid-template-rows: auto;
+}
+.input{
+    border: 2px solid black;
+}
+.button{
+    border: 3px solid black;
+}
+.container2{
+    display: grid;
+    height: 150px;
+    width: 1000px;
+    grid-template-columns: auto auto;
+    text-align: center;}
+.list1{
+    color: white;
+    list-style-type: none;
+    text-align: left;
+}   
+.list2{
+    color: white;
+    list-style-type: none;
+    text-align: right;
+
+}
+.logo1{
+    float: right;
+}
+.logo2{
+    float: right;
+    
+}
+.list3{
+    color: white;
+    list-style-type: none;
+    text-align: right;
+}
